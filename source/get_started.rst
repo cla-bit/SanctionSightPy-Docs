@@ -5,7 +5,7 @@ Getting Started
 
 System Requirements
 -------------------
-•	Python 3.10 or higher.
+•	Python 3.13 or higher.
 •	Supported operating systems: Windows, macOS, Linux.
 
 
