@@ -17,4 +17,3 @@ This package the essential modules and functionalities that form the foundation 
 
    datadock.filters.date_filter
    datadock.filters.entity_filter
-   datadock.filters.price_filter
