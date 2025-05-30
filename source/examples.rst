@@ -13,7 +13,8 @@ Asynchronous support:
 
 .. code-block:: python
 
-    from SanctionSightPy import VERSION
+    from SanctionSightPy import VERSION, SanctionClient, SanctionService
+    from SanctionSightPy.core.filters import DateRangeFilter, PriceRangeFilter, EntityFilter
 
     SanctionSightPy_version = VERSION
 
@@ -54,7 +55,7 @@ Here is a simple way to get a sanction data. In this case we will be use `canada
 
     .. code-block:: python
 
-        >>> all_filters = [DateRangeFilter(min_price=500000), NameFilter(min_bedrooms=3)]
+        >>> all_filters = [DateRangeFilter(date_column="", start_date="", end_date=""), EntityFilter(search_terms="", columns="", match_type="partial", case_sensitive=False)]
         >>> filtered_data = await service.get_filtered('canada_sanction', all_filters)
 
 
