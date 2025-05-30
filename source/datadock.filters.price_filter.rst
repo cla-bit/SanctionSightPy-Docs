@@ -40,10 +40,16 @@ PriceRangeFilter
 
         .. code-block:: python
 
+            # Sample data
+            data_table = pa.table({
+                "price": [1000, 1500, 2000, 2500, 3000],
+                "address": ["A", "B", "C", "D", "E"]
+            })
+
             # Filter for rows with price between 1000 and 5000
-            filter = PriceRangeFilter(column="amount", min_price=1000, max_price=5000)
+            filter = PriceRangeFilter(column="price", min_price=1000, max_price=2000)
             filtered_data = filter.apply(data_table)
 
             # Filter for rows with exact price of 2500
-            exact_filter = PriceRangeFilter(column="amount", set_price=2500)
+            exact_filter = PriceRangeFilter(column="price", set_price=2500)
             exact_data = exact_filter.apply(data_table)
