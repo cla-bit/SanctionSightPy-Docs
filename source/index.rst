@@ -16,7 +16,7 @@ Welcome to SanctionSightPy documentation!
 
 To get started with the SanctionSightPy library, ensure the following requirements are met:
 
-* Python 3.10+
+* Python 3.13+
 
 --------------
 
