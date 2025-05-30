@@ -44,9 +44,15 @@ EntityFilter
 
         .. code-block:: python
 
+            # Sample data
+            data_table = pa.table({
+                "name": ["Alice", "Bob", "Charlie", "David", "alice", "Smith", "Johnson"],
+                "occupation": ["Engineer", "Doctor", "Artist", "Engineer", "Scientist"]
+            })
+
             filter = EntityFilter(
-                search_terms=["Smith", "Johnson"],
-                columns=["last_name", "alias"],
+                search_terms=["Smith"],
+                columns=["name"],
                 match_type="startswith",
                 case_sensitive=False
             )
