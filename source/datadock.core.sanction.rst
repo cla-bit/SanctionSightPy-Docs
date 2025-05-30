@@ -38,7 +38,7 @@ SanctionService
         .. code-block:: python
 
             service = SanctionService(client)
-            all_filters = [DateRangeFilter(min_price=500000), NameFilter(min_bedrooms=3)]
+            all_filters = [DateRangeFilter(date_column="", start_date="", end_date=""), EntityFilter(search_terms="", columns="", match_type="partial", case_sensitive=False)]
             filtered_data = await service.get_filtered('canada_sanction', all_filters)
 
     .. method:: to_pandas(state, columns=None)
