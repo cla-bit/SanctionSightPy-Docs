@@ -8,5 +8,4 @@ Key capabilities include:
 
 * Unified access to multiple sanction list sources
 * Querying and filtering of sanctioned entities and individuals
-* Integration of data into compliance, audit, or screening systems
-* Support for building automated workflows for sanctions monitoring
+
