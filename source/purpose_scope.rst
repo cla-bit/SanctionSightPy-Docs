@@ -4,14 +4,14 @@ Purpose and Scope
 
 Based on the provided documentation, here's a clear and concise summary of the **purpose** and **scope** of the `SanctionSightPy` library:
 
----
+
 
 **Purpose**
 ~~~~~~~~~~~~
 
 **SanctionSightPy** is an open-source Python library designed to simplify access to global sanctions data. It allows developers to easily query, filter, and integrate sanctions lists from major international regulatory bodies into their compliance and risk management systems. Its primary goal is to streamline the process of working with sanctions data in automated workflows.
 
----
+
 
 **Scope**
 ~~~~~~~~~~
