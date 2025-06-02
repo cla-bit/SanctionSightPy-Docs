@@ -41,8 +41,6 @@ To get started, refer to the :doc:`get_started` section for installation instruc
    datadock
    features
    use_cases
-   faqs
-   glossary
 
 
 Indices and tables
