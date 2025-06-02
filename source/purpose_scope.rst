@@ -2,9 +2,6 @@
 Purpose and Scope
 ==================
 
-Based on the provided documentation, here's a clear and concise summary of the **purpose** and **scope** of the `SanctionSightPy` library:
-
-
 
 **Purpose**
 ~~~~~~~~~~~~
